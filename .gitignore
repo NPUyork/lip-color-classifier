@@ -1,0 +1,16 @@
+# 数据和模型文件（很大，切勿上传！）
+data/
+*.pth
+*.pt
+*.h5
+
+# Python 缓存和虚拟环境
+__pycache__/
+*.pyc
+venv/
+env/
+
+# 配置文件与 IDE
+.env
+.vscode/
+.idea/
