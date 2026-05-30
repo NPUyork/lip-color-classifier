@@ -41,3 +41,26 @@
 4. 运行训练脚本：`python scripts/train.py` 或直接使用 `notebooks/` 中的 Jupyter Notebook
 
 ## 📁 项目结构
+```
+lip-color-classifier/
+├── data/               # 数据集（原始图片不提交至GitHub，仅保留结构）
+├── notebooks/          # Jupyter Notebook（数据探索、模型训练）
+├── scripts/            # Python脚本
+├── report/             # 课程作业报告PDF
+├── .gitignore
+├── requirements.txt
+└── README.md
+```
+
+## ⚠️ 局限性
+- 数据量较小（约200张），且源自网络，可能存在偏色、滤镜等干扰
+- 未区分病理性发紫（如心脏疾病）与环境性发紫（如寒冷）
+- 仅做二分类，未扩展为正常/轻度/重度三分类
+
+## 📅 进度跟踪
+- [x] 搭建GitHub仓库骨架
+- [ ] 收集并清洗图片
+- [ ] 训练自建CNN
+- [ ] 训练MobileNetV2对比
+- [ ] 完成消融实验
+- [ ] 撰写课程报告
